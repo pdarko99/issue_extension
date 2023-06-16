@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "Issue Tracker",
+    "description": "An extension that allows you to assign tasks to colleagues",
+    "version": "2",
+    "action": {
+      "default_icon": {
+        "16": "./mani.jpg",
+        "48": "./mani.jpg",
+        "128": "./mani.jpg"
+      },
+      "default_popup": "index.html",
+      "default_title": "issuesT"
+    },
+  
+   
+    "permissions": [],
+    "host_permissions": [],
+    "background": {
+        "type":"module"
+    }
+  }
+  
